@@ -1,0 +1,132 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    font-size: 15px;
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    line-height: 2em;
+}
+.pimag1{
+    background-image: url(images/Travel\ World.jpg);
+    min-height: 100%;
+
+   
+}
+.pimag2{
+    background-image: url(images/Doha.jpg);
+    min-height: 750px;
+
+   
+}
+.pimag3{
+    background-image: url(images/Egypt.jpg);
+    min-height: 750px;
+
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+   
+}
+.pimag4{
+    background-image: url(images/Japn.jpg);
+    min-height: 750px;
+
+   
+}
+.pimag5{
+    background-image: url(images/London.jpg);
+    min-height: 750px;
+
+   
+}
+.pimag6{
+    background-image: url(images/Saudi\ Arabian.jpg);
+    min-height: 750px;
+
+   
+}
+.pimag7{
+    background-image: url(images/Singapore.jpg);
+    min-height: 800px;
+
+   
+}
+.pimag1,
+.pimag2,
+.pimag3,
+.pimag4,
+.pimag5,
+.pimag6,
+.pimag7{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: end;
+    right: 1%;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(252, 252, 252);
+}
+.textbg{
+    background-color: rgba(4, 43, 30, 0.836);
+    padding: 15px 20px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.section{
+    padding: 50px;
+    text-align: center;
+}
+h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pimag2 .ptext .textbg{
+    background-color: rgba(182, 160, 160, 0);
+    opacity: 15;
+    
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    
+}
+.pimag2 .ptext{
+    top: 40%; 
+    margin-right: -1%;
+    width: 100%;
+    text-align: center;
+    text-decoration: transparent;
+}
+.pimag3 .ptext{
+    top: 20%;
+
+}
+.pimag4 .ptext{
+    text-align: center;
+}
+.pimag5 .ptext{
+    top: 30%;
+    text-align: center;
+}
+.pimag6 .ptext{
+    top: 10%;
+    text-align: center;
+}
+.pimag7 .ptext{
+    top: 40%;
+    text-align: center;
+}
