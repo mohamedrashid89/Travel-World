@@ -79,7 +79,7 @@ html, body{
 }
 .textbg{
     background-color: rgba(4, 43, 30, 0.836);
-    padding: 15px 20px;
+    padding: 15px 15px;
     text-transform: uppercase;
     letter-spacing: 10px;
 }
@@ -134,7 +134,7 @@ p{
 
 @media(max-width:450px){
     .ptext{
-        font-size: 10px;
+        font-size: 9px;
        
     }
     h2{
