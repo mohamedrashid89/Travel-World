@@ -130,3 +130,26 @@ p{
     top: 40%;
     text-align: center;
 }
+
+
+@media(max-width:450px){
+    .ptext{
+        font-size: 15px;
+       
+    }
+    h2{
+        font-size: 15px;
+        font-weight: 800;
+    }
+    p{
+        font-size: 15px;
+        font-family: 700;
+    }
+
+
+
+
+
+
+
+}
